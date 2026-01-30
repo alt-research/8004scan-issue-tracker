@@ -1,0 +1,180 @@
+name: Bug Report
+description: Report a bug or unexpected behavior on 8004scan
+title: "[Bug]: "
+labels: ["bug", "status: investigating"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for reporting a bug!
+
+        Please fill out the form below to help us understand and fix the issue.
+
+        **Before submitting**, please:
+        - Search [existing issues](https://github.com/alt-research/8004scan-issue-tracker/issues) to avoid duplicates
+        - Make sure you're using the latest version of the platform
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected Component
+      description: Which part of 8004scan is affected?
+      options:
+        - Web App (Frontend)
+        - API (Backend)
+        - Agent Search & Discovery
+        - Agent Rankings
+        - Validation System
+        - Authentication / Wallet Connection
+        - User Profile / Settings
+        - Notifications
+        - Mobile Experience
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Critical - Platform is unusable
+        - High - Major feature is broken
+        - Medium - Feature is impaired but workaround exists
+        - Low - Minor inconvenience
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug
+      placeholder: Describe what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe what you expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Videos
+      description: If applicable, add screenshots or videos to help explain the problem
+      placeholder: Drag and drop images here or paste URLs...
+
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: The URL where the bug occurred (if applicable)
+      placeholder: https://8004scan.io/...
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Brave
+        - Opera
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser Version
+      description: What version of the browser are you using?
+      placeholder: e.g., 120.0.6099.109
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: Which operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - iOS
+        - Android
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: wallet
+    attributes:
+      label: Wallet (if applicable)
+      description: Which wallet were you using?
+      options:
+        - Not applicable
+        - MetaMask
+        - Coinbase Wallet
+        - WalletConnect
+        - Rainbow
+        - Trust Wallet
+        - Rabby
+        - Other
+
+  - type: input
+    id: chain
+    attributes:
+      label: Blockchain Network
+      description: Which network were you connected to?
+      placeholder: e.g., Ethereum Mainnet, Base, Sepolia
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Console Errors
+      description: Any errors in the browser console? (Press F12 to open)
+      placeholder: Paste console errors here...
+      render: shell
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context about the problem?
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and this is not a duplicate
+          required: true
+        - label: I have provided all the information requested above
+          required: true
+        - label: I have not included any sensitive information (private keys, API keys, etc.)
+          required: true

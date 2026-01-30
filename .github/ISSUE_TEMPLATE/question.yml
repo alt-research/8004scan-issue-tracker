@@ -1,0 +1,105 @@
+name: Question
+description: Ask a question about 8004scan
+title: "[Question]: "
+labels: ["question"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Have a question?
+
+        We're happy to help! Please check our [documentation](https://docs.8004scan.io) first, as your question might already be answered there.
+
+        **Before submitting**, please search [existing issues](https://github.com/alt-research/8004scan-issue-tracker/issues?q=label%3Aquestion) to see if your question has already been asked.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      description: What is your question about?
+      options:
+        - Getting started
+        - Agent discovery & search
+        - Agent registration
+        - Agent rankings & scoring
+        - Validation system
+        - Wallet connection
+        - User account & profile
+        - API usage
+        - Integration / Development
+        - ERC-8004 standard
+        - Pricing & plans
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Please describe your question in detail
+      placeholder: |
+        What I'm trying to understand is...
+        How do I...
+        What does X mean...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to accomplish? Any relevant background?
+      placeholder: |
+        I'm trying to...
+        The context is...
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you already tried?
+      description: What resources have you consulted?
+      placeholder: |
+        I've checked the documentation at...
+        I've searched for...
+        I've tried...
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your question
+      placeholder: Drag and drop images here...
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      description: How urgent is this question for you?
+      options:
+        - Not urgent - just curious
+        - Would like to know soon
+        - Blocking my work
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: resources
+    attributes:
+      label: Resources Checked
+      description: Please confirm you've checked these resources
+      options:
+        - label: I have checked the [documentation](https://docs.8004scan.io)
+          required: true
+        - label: I have searched existing issues for similar questions
+          required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have not included any sensitive information
+          required: true

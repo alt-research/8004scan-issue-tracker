@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.8004scan.io
+    about: Check our documentation for guides and answers
+  - name: Discord Community
+    url: https://discord.gg/8004scan
+    about: Join our Discord for real-time support and discussions
+  - name: Twitter
+    url: https://twitter.com/8004scan
+    about: Follow us for updates and announcements
+  - name: Security Vulnerabilities
+    url: https://github.com/alt-research/8004scan-issue-tracker/security/policy
+    about: Please report security vulnerabilities through our security policy
