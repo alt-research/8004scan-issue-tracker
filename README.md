@@ -69,19 +69,6 @@ We use the following labels to categorize and prioritize issues:
 
 When reporting issues, please specify which component is affected.
 
-## Response Times
-
-We aim to respond to issues within the following timeframes:
-
-| Priority | Initial Response | Resolution Target |
-|----------|-----------------|-------------------|
-| Critical | < 4 hours | < 24 hours |
-| High | < 24 hours | < 1 week |
-| Medium | < 48 hours | < 2 weeks |
-| Low | < 1 week | Best effort |
-
-*Note: These are targets, not guarantees. Complex issues may require more time.*
-
 ## Community Guidelines
 
 Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating. We are committed to maintaining a welcoming and inclusive community.
@@ -110,9 +97,8 @@ Please report security issues through our [Security Policy](SECURITY.md) or cont
 ## Stay Connected
 
 - **Website**: [8004scan.io](https://8004scan.io)
-- **Documentation**: [docs.8004scan.io](https://docs.8004scan.io)
-- **Twitter**: [@8004scan](https://twitter.com/8004scan)
-- **Discord**: [Join our community](https://discord.gg/8004scan)
+- **Documentation**: [best-practices.8004scan.io](https://best-practices.8004scan.io/)
+- **Twitter**: [@8004_scan](https://twitter.com/8004_scan)
 
 ## Related Resources
 

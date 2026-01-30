@@ -41,15 +41,6 @@ Thank you for your interest in contributing to 8004scan! This document provides 
 4. **Resolved** - Fix deployed
 5. **Closed** - Issue complete
 
-## Response Times
-
-| Priority | Response |
-|----------|----------|
-| Critical | < 4 hours |
-| High | < 24 hours |
-| Medium | < 48 hours |
-| Low | < 1 week |
-
 ## Community Guidelines
 
 - Be respectful and constructive
@@ -63,8 +54,7 @@ Do NOT report security issues publicly. See [SECURITY.md](SECURITY.md) for instr
 
 ## Questions?
 
-- Check [Documentation](https://docs.8004scan.io)
-- Join [Discord](https://discord.gg/8004scan)
+- Check [Documentation](https://best-practices.8004scan.io/)
 - Email: support@altresear.ch
 
 ---
