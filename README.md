@@ -92,7 +92,7 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating. We
 
 **Do not report security vulnerabilities through public issues.**
 
-Please report security issues through our [Security Policy](SECURITY.md) or contact us directly at [security@altresear.ch](mailto:security@altresear.ch).
+Please report security issues through our [Security Policy](SECURITY.md) or contact us directly at [support@altresear.ch](mailto:support@altresear.ch).
 
 ## Stay Connected
 
@@ -104,12 +104,6 @@ Please report security issues through our [Security Policy](SECURITY.md) or cont
 
 - [ERC-8004 Standard](https://eips.ethereum.org/EIPS/eip-8004) - The AI Agent Registry specification
 - [OASF Framework](https://github.com/oasf-ai/oasf) - Open Agent Skills Framework
-
-## License
-
-Copyright Alt Research Ltd. 2026. All rights reserved.
-
-See [LICENSE](LICENSE) for details.
 
 ---
 

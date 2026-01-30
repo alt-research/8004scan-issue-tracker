@@ -28,7 +28,7 @@ This Code of Conduct applies to all project spaces, including issues, discussion
 
 ## Enforcement
 
-Instances of unacceptable behavior may be reported to the project team at conduct@altresear.ch. All complaints will be reviewed and investigated promptly and fairly.
+Instances of unacceptable behavior may be reported to the project team at support@altresear.ch. All complaints will be reviewed and investigated promptly and fairly.
 
 Project maintainers have the right to remove, edit, or reject comments, issues, and other contributions that do not align with this Code of Conduct.
 
@@ -38,4 +38,4 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 ---
 
-**Questions?** Contact us at conduct@altresear.ch
+**Questions?** Contact us at support@altresear.ch
