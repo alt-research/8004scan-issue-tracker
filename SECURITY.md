@@ -6,7 +6,7 @@
 
 If you discover a security issue, please report it privately:
 
-**Email:** support@altresear.ch
+**Email:** security@altresear.ch
 
 **Subject:** [8004scan Security] Brief description
 
@@ -58,6 +58,6 @@ We will not pursue legal action against researchers who:
 
 ## Contact
 
-**Email:** support@altresear.ch
+**Email:** security@altresear.ch
 
 Thank you for helping keep 8004scan secure.
