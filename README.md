@@ -92,7 +92,7 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating. We
 
 **Do not report security vulnerabilities through public issues.**
 
-Please report security issues through our [Security Policy](SECURITY.md) or contact us directly at [support@altresear.ch](mailto:support@altresear.ch).
+Please report security issues through our [Security Policy](SECURITY.md) or contact us directly at [security@altresear.ch](mailto:security@altresear.ch).
 
 ## Stay Connected
 
