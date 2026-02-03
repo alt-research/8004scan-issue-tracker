@@ -10,7 +10,7 @@ body:
       value: |
         ## Have a question?
 
-        We're happy to help!
+        We're happy to help! Please check our [best practices guide](https://best-practices.8004scan.io/) first, as your question might already be answered there.
 
         **Before submitting**, please search [existing issues](https://github.com/alt-research/8004scan-issue-tracker/issues?q=label%3Aquestion) to see if your question has already been asked.
 
@@ -91,6 +91,8 @@ body:
       label: Resources Checked
       description: Please confirm you've checked these resources
       options:
+        - label: I have checked the [best practices guide](https://best-practices.8004scan.io/)
+          required: true
         - label: I have searched existing issues for similar questions
           required: true
 

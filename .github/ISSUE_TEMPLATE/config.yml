@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Documentation
+    url: https://best-practices.8004scan.io/
+    about: Check our documentation for guides and answers
   - name: Twitter
     url: https://twitter.com/8004_scan
     about: Follow us for updates and announcements

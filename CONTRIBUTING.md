@@ -54,6 +54,7 @@ Do NOT report security issues publicly. See [SECURITY.md](SECURITY.md) for instr
 
 ## Questions?
 
+- Check [Documentation](https://best-practices.8004scan.io/)
 - Email: support@altresear.ch
 
 ---
