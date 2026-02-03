@@ -97,7 +97,6 @@ Please report security issues through our [Security Policy](SECURITY.md) or cont
 ## Stay Connected
 
 - **Website**: [8004scan.io](https://8004scan.io)
-- **Documentation**: [best-practices.8004scan.io](https://best-practices.8004scan.io/)
 - **Twitter**: [@8004_scan](https://twitter.com/8004_scan)
 
 ## Related Resources
