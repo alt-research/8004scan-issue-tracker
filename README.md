@@ -12,6 +12,8 @@ Welcome to the official issue tracker for [8004scan](https://8004scan.io) - the 
 - **X402 Integration** - Payment wallet metrics and financial activity tracking
 - **Real-time Updates** - Live blockchain synchronization and notifications
 
+> Supported contracts: 8004scan currently supports only the ERC-8004 contract deployments listed in the [erc-8004-contracts repository's Contract Addresses section](https://github.com/erc-8004/erc-8004-contracts?tab=readme-ov-file#contract-addresses). Issues related to custom deployments fall outside our current support scope. For commercial agreements related to custom standalone 8004scan deployments for your chain, please contact [maintainers@altresear.ch](mailto:maintainers@altresear.ch).
+
 ## How to Use This Repository
 
 This repository is dedicated to collecting community feedback, bug reports, and feature requests for 8004scan. We value your input and are committed to continuously improving the platform.
